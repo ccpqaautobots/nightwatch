@@ -1,0 +1,16 @@
+{
+	"Admin" : [
+		{
+			"url" : "http://core-admin.qa.aop.cambridge.org/",
+			"username" : "cambridgecoreadmin@cambridge.org",
+			"password" : "C0r3@dm1n"
+		}
+	],
+	"Core" : [
+		{
+			"url" : "",
+			"username" : "",
+			"password" : ""
+		}
+	]
+}

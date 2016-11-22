@@ -1,0 +1,35 @@
+{
+	"scriptName" : "SampleScript",
+	"author" : "Alvin Laguinlin",
+	"steps" : [
+		{
+			"option" : "",
+			"page" : "LaunchApplication",
+			"action" : "url",
+			"object" : "",
+			"data" : "url"
+		},
+		{
+			"option" : "",
+			"page" : "PageLogin",
+			"action" : "setValue",
+			"object" : "username",
+			"data" : "username"
+		},
+		{
+			"option" : "",
+			"page" : "PageLogin",
+			"action" : "setValue",
+			"object" : "password",
+			"data" : "password"
+		},
+		{
+			"option" : "",
+			"page" : "PageLogin",
+			"action" : "click",
+			"object" : "loginButton",
+			"data" : ""
+		}
+	]
+
+}

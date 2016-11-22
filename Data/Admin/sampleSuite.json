@@ -1,0 +1,13 @@
+{
+	"scriptName" : "SampleScript",
+	"author" : "Alvin Laguinlin",
+	"scripts" : [
+		{
+			"scriptName" : [
+				"sampleScript.json",
+				"sampleScript2.json"
+			]
+		}
+	]
+
+}
