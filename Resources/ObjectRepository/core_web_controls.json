@@ -1,0 +1,22 @@
+{
+	"LaunchApplication" : {
+		"url" : "http://core-admin.si.aop.cambridge.org/"
+	},
+	"PageLogin" : {
+		"username" : "*//input[@id='username']",
+		"password" : "*//input[@id='password']",
+		"loginButton" : "*//button"
+	},
+	"PageHome" : {
+		"homePageHeader" : "*//div[@class='mdl-layout-title app-title']",
+		"topLeftMenu" : "*//div[@class='mdl-layout__container']/div/header/div/i",
+		"products" : "*//div[@class='submenu']/div/span[contains(.,'Products')]",
+		"books" : "*//div[@class='submenu']/ul/li/a[contains(.,'Books')]"
+	},
+	"PageBook" : {
+		"bookPageHeader" : "*//div[@class='mdl-layout-title app-title']"
+	},
+	"PageLogout" : {
+		"logoutButton" : "*//a[@href='/logout']"
+	}
+}

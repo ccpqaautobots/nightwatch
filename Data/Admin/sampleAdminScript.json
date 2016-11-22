@@ -1,0 +1,104 @@
+{
+	"scriptName" : "SampleScript",
+	"author" : "Alvin Laguinlin",
+	"steps" : [
+		{
+			"description" : "Launch application",
+			"page" : "LaunchApplication",
+			"action" : "launch",
+			"object" : "url",
+			"data" : "",
+			"errorMessage" : ""
+		},
+		{
+			"description" : "Wait until element is displayed usename textfield",
+			"page" : "PageLogin",
+			"action" : "waitUntilElementIsDisplayed",
+			"object" : "username",
+			"data" : "30",
+			"errorMessage" : ""
+		},
+		{
+			"description" : "Click and enter data on usename textfield",
+			"page" : "PageLogin",
+			"action" : "input",
+			"object" : "username",
+			"data" : "cambridgecoreadmin@cambridge.org",
+			"errorMessage" : ""
+		},
+		{
+			"description" : "Click and enter data on password textfield",
+			"page" : "PageLogin",
+			"action" : "input",
+			"object" : "password",
+			"data" : "C0r3@dm1n",
+			"errorMessage" : ""
+		},
+		{
+			"description" : "Click login button",
+			"page" : "PageLogin",
+			"action" : "click",
+			"object" : "loginButton",
+			"data" : "",
+			"errorMessage" : ""
+		},
+		{
+			"description" : "Wait until element is displayed Home Page Header",
+			"page" : "PageHome",
+			"action" : "waitUntilElementIsDisplayed",
+			"object" : "homePageHeader",
+			"data" : "30",
+			"errorMessage" : ""
+		},
+		
+		{
+			"description" : "Click Products.",
+			"page" : "PageHome",
+			"action" : "click",
+			"object" : "products",
+			"data" : "",
+			"errorMessage" : ""
+		},
+		{
+			"description" : "Click Products - Books.",
+			"page" : "PageHome",
+			"action" : "click",
+			"object" : "books",
+			"data" : "",
+			"errorMessage" : ""
+		},
+		{
+			"description" : "Wait until element is displayed books header",
+			"page" : "PageBook",
+			"action" : "waitUntilElementIsDisplayed",
+			"object" : "bookPageHeader",
+			"data" : "",
+			"errorMessage" : ""
+		},
+		{
+			"description" : "Get value of books header",
+			"page" : "PageBook",
+			"action" : "getValue",
+			"object" : "bookPageHeader",
+			"data" : "",
+			"errorMessage" : ""
+		},
+		{
+			"description" : "Verify books header",
+			"page" : "PageBook",
+			"action" : "verifyValue",
+			"object" : "bookPageHeader",
+			"data" : "Book - Listing",
+			"errorMessage" : ""
+		},
+		{
+			"description" : "Click logout button.",
+			"page" : "PageLogout",
+			"action" : "click",
+			"object" : "logoutButton",
+			"data" : "",
+			"errorMessage" : ""
+		}
+	]
+
+}
